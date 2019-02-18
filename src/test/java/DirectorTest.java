@@ -32,4 +32,10 @@ public class DirectorTest {
     public void hasDeptName(){
         assertEquals("Dept.OfDadJokes", director.getDeptName());
     }
+
+    @Test
+    public void hasBudget(){
+        assertEquals(90000000.0, director.getBudget(),0.1);
+    }
 }
+
