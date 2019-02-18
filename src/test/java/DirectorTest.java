@@ -27,4 +27,9 @@ public class DirectorTest {
     public void hasSalary(){
         assertEquals(1000000, director.getSalary());
     }
+
+    @Test
+    public void hasDeptName(){
+        assertEquals("Dept.OfDadJokes", director.getDeptName());
+    }
 }
