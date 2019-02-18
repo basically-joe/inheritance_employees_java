@@ -17,4 +17,8 @@ public class ManagerTest {
     public void canGetName(){
         assertEquals("Jon", manager.getName());
     }
+    @Test
+    public void canGetNI(){
+        assertEquals("223ed445", manager.getNI());
+    }
 }
