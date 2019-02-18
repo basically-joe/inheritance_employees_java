@@ -21,4 +21,9 @@ public class ManagerTest {
     public void canGetNI(){
         assertEquals("223ed445", manager.getNI());
     }
+
+    @Test
+    public void canGetSalary(){
+        assertEquals(400000, manager.getSalary());
+    }
 }
