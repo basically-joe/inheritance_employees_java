@@ -19,4 +19,9 @@ public class EmployeeTest {
         assertEquals(40000, employee.getSalary());
     }
 
+    @Test
+    public void cantLeaveEmployeeNameEmpty(){
+        employee.setName("");
+        assertEquals("Alex", employee.getName());
+    }
 }
