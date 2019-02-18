@@ -18,4 +18,11 @@ public class DeveloperTest {
         assertEquals("Joe", developer.getName());
     }
 
+    @Test
+    public void developerHasNI(){
+        assertEquals("123456789Joe", developer.getNI());
+    }
+
+
+
 }
