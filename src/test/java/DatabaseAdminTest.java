@@ -14,4 +14,9 @@ public class DatabaseAdminTest {
     public void canGetName(){
         assertEquals("Colin", databaseAdmin.getName());
     }
+
+    @Test
+    public void canGetNI(){
+        assertEquals("123456DD78", databaseAdmin.getNI());
+    }
 }
